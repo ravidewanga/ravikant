@@ -16,15 +16,15 @@ class _MyInfoState extends State<MyInfo> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children:[
-            Spacer(flex: 2),
+            const Spacer(flex: 2),
             const CircleAvatar(
               radius: 50,
               backgroundImage: AssetImage('assets/images/5205.jpg'),
             ),
-            Spacer(),
+            const Spacer(),
             Text("Ravikant Dewangan",style: Theme.of(context).textTheme.subtitle2,),
             const Text('Flutter Developer',textAlign: TextAlign.center,style: TextStyle(fontWeight: FontWeight.w200,height: 1.5),),
-            Spacer(flex: 2),
+            const Spacer(flex: 2),
           ],
         ),
       ),

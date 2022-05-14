@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:ravikant/screens/home.dart';
-import '../screens/dashboard.dart';
+import 'package:ravikant/splash_screen.dart';
 import 'constants.dart';
 
 void main() {
@@ -25,7 +24,7 @@ class MyApp extends StatelessWidget {
           bodyText2: const TextStyle(color: bodyTextColor),
         ),
       ),
-      home: Home(),
+      home: const SplashScreen(),
     );
   }
 }

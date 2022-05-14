@@ -26,28 +26,28 @@ class _SideMenuState extends State<SideMenu> {
               padding: const EdgeInsets.all(defaultPadding),
               child: Column(
                 children: [
-                  AreaInfoText(
+                  const AreaInfoText(
                     title: "Residence",
                     text: "India",
                   ),
-                  AreaInfoText(
+                  const AreaInfoText(
                     title: "City",
                     text: "Raipur",
                   ),
-                  AreaInfoText(
+                  const AreaInfoText(
                     title: "Age",
                     text: "31",
                   ),
 
-                  Skills(),
+                  const Skills(),
 
-                  Coding(),
+                  const Coding(),
 
-                  Knowledges(),
+                  const Knowledges(),
 
-                  Divider(),
+                  const Divider(),
 
-                  SizedBox(height: defaultPadding / 2),
+                  const SizedBox(height: defaultPadding / 2),
 
                   TextButton(
                     onPressed: () {},
@@ -63,7 +63,7 @@ class _SideMenuState extends State<SideMenu> {
                                   .color,
                             ),
                           ),
-                          SizedBox(width: defaultPadding / 2),
+                          const SizedBox(width: defaultPadding / 2),
                           SvgPicture.asset("assets/icons/download.svg")
                         ],
                       ),
@@ -71,11 +71,11 @@ class _SideMenuState extends State<SideMenu> {
                   ),
 
                   Container(
-                    margin: EdgeInsets.only(top: defaultPadding),
-                    color: Color(0xFF24242E),
+                    margin: const EdgeInsets.only(top: defaultPadding),
+                    color: const Color(0xFF24242E),
                     child: Row(
                       children: [
-                        Spacer(),
+                        const Spacer(),
                         IconButton(
                           onPressed: () {},
                           icon: SvgPicture.asset("assets/icons/linkedin.svg"),
@@ -88,7 +88,7 @@ class _SideMenuState extends State<SideMenu> {
                           onPressed: () {},
                           icon: SvgPicture.asset("assets/icons/twitter.svg"),
                         ),
-                        Spacer(),
+                        const Spacer(),
                       ],
                     ),
                   ),
